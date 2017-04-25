@@ -34,8 +34,8 @@ copy jquery.iframe-transport.js to /apps/files/js/jquery.iframe-transport.js
 ```
 'filesystem_check_changes' => 1,
 ```
-This setting will autorefresh contents when you visit. If you not setting to 1, when you have finished downloading bt, you can't see the files, but on server they are there.
-4. give the permisson to user www-data.  
+This setting will autorefresh contents when you visit. If you not setting to 1, when you have finished downloading bt, you can't see the files, but on server they are there.  
+4. give the permisson to user www-data.  
 
 ```
 chown -R www-data:www-data /where your nextcloud is/
